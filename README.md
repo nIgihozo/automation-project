@@ -50,5 +50,5 @@ Script Workflow:
 
 4. Task 3: Transfers the SQL dump to the server and imports the data.
 
-**Note: Every there is no error occured the database will be successful available on your `SQL-SERVER`**
+**Note: If there is no error occured the database will be successful available on your `SQL-SERVER`**
 
