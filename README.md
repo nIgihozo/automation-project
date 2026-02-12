@@ -27,7 +27,7 @@ git clone https://github.com/nIgihozo/automation-project.git
 cd automation-project
 </pre>
 
-2. **Configure Password
+2. **Configure Password**
 <pre>
 Bash
 echo "your_secure_password" > password.txt
