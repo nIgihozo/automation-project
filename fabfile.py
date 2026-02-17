@@ -50,7 +50,7 @@ def deploy_db():
     # On local, we don't need to 'put' the file, but we'll do it to simulate the server
     connection.put('AirBnB_dump.sql', remote='/tmp/AirBnB_dump.sql')
     connection.sudo('AirBnB-backup < /tmp/AirBnB_dump.sql')
-    print("--- DONE: MySQL installed and 8.5K data imported! ---")
+    print("--- DONE: MySQL installed successfully!! ---")
 
     print("Deploying AirBnB database on web server has been successfully done")
 
